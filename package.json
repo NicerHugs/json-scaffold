@@ -2,15 +2,18 @@
   "name": "json-scaffold",
   "version": "0.1.0",
   "description": "a file structure scaffolding tool that builds files based on a a json format.",
+	"keywords": ["scaffolding", "build tool", "boilerplate", "file structure"],
+	"bugs": "https://github.com/NicerHugs/json-scaffold/issues",
+	"license": "WTFPL",
+	"author": "nicerhugs <nicerhugs@gmail.com> http://nicerhugs.com",
   "main": "index.js",
-  "author": "nicerhugs",
-  "license": "WTFPL",
+	"bin": {
+    "json-scaffold": "bin/index.js"
+  },
+	"repository": "https://github.com/NicerHugs/fileSysPlay.git",
 	"scripts": {
 		"test": "mocha"
 	},
-  "bin": {
-    "json-scaffold": "bin/index.js"
-  },
   "devDependencies": {
     "chai": "^3.5.0"
   }
