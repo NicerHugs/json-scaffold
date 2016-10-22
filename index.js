@@ -33,7 +33,9 @@ function build(fileStructure) {
   .then(build.bind(this, fileStructure))
 }
 
-function makePaths(structure, root = '.', store = []) {
+function makePaths(structure, root, store) {
+	if (! root) {root = '.';}
+	if (!Array.isArray(store)) {store = [];}
 	if (!Array.isArray(structure)) {
 		throw new Error('The contents of your directories must be described as an array. See the contents of your `.scaffoldrc` file');
 	}

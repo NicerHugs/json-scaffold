@@ -1,6 +1,6 @@
 {
   "name": "json-scaffold",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a file structure scaffolding tool that builds files based on a a json format.",
 	"keywords": ["scaffolding", "build tool", "boilerplate", "file structure"],
 	"bugs": "https://github.com/NicerHugs/json-scaffold/issues",
